@@ -262,7 +262,7 @@ namespace PdfSharp.Pdf.Internal
                 case '\u0178':
                     return '\u009F';
             }
-            return '\u00A4';  // Char 164 is ANSI value of '¤'.
+            return '\u00A4';  // Char 164 is ANSI value of 'Â¤'.
         }
 
         /// <summary>

@@ -238,7 +238,7 @@ namespace PdfSharp.Drawing.Pdf
         public void RealizeBrush(XBrush brush, PdfColorMode colorMode, int renderingMode, double fontEmSize)
         {
             // Rendering mode 2 is used for bold simulation.
-            // Reference: TABLE 5.3  Text rendering modes / Page 402
+            // Reference: TABLE 5.3Â Â Text rendering modes / Page 402
 
             XSolidBrush solidBrush = brush as XSolidBrush;
             if (solidBrush != null)
@@ -387,7 +387,7 @@ namespace PdfSharp.Drawing.Pdf
         public XPoint RealizedTextPosition;
 
         /// <summary>
-        /// Indicates that the text transformation matrix currently skews 20° to the right.
+        /// Indicates that the text transformation matrix currently skews 20Â° to the right.
         /// </summary>
         public bool ItalicSimulationOn;
 

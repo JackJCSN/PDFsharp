@@ -185,7 +185,7 @@ namespace PdfSharp.Pdf.AcroForms
 
             //// HACK
             //string m =
-            //"<?xpacket begin=\"﻿\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?>" + '\n' +
+            //"<?xpacket begin=\"ï»¿\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?>" + '\n' +
             //"<x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"Adobe XMP Core 4.0-c321 44.398116, Tue Aug 04 2009 14:24:39\"> " + '\n' +
             //"   <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"> " + '\n' +
             //"      <rdf:Description rdf:about=\"\" " + '\n' +
@@ -283,7 +283,7 @@ namespace PdfSharp.Pdf.AcroForms
         public new class Keys : PdfAcroField.Keys
         {
             /// <summary>
-            /// (Optional; inheritable) The maximum length of the field�s text, in characters.
+            /// (Optional; inheritable) The maximum length of the field’s text, in characters.
             /// </summary>
             [KeyInfo(KeyType.Integer | KeyType.Optional)]
             public const string MaxLen = "/MaxLen";
